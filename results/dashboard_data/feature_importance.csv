@@ -1,0 +1,29 @@
+feature,accuracy_drop,label
+hit_location,0.27975999999999995,Hit location (fielder)
+launch_angle,0.1390399999999999,Launch angle
+hit_distance_sc,0.11323999999999997,Hit distance
+launch_speed,0.016159999999999952,Exit velocity
+swing_length,0.001679999999999926,Swing length
+bat_speed,0.00127999999999997,Bat speed
+pitch_type_SI,0.0012799999999999478,Pitch: Sinker
+release_speed,0.0012399999999999523,Pitch velocity
+if_fielding_alignment_Standard,0.0005999999999999339,IF alignment: Standard
+pitch_type_KC,0.00035999999999996034,Pitch: Knuckle Curve
+pitch_type_ST,0.0002799999999999692,Pitch: Sweeper
+swing_path_tilt,0.00019999999999995577,Swing path tilt
+pitch_type_SL,0.00015999999999996017,Pitch: Slider
+if_fielding_alignment_Strategic,0.00011999999999994238,IF alignment: Strategic
+pitch_type_CS,0.0,Pitch: Slow Curve
+pitch_type_FO,0.0,Pitch: Forkball
+pitch_type_KN,0.0,Pitch: Knuckleball
+pitch_type_SV,0.0,Pitch: Slurve
+pitch_type_FA,0.0,Pitch: Fastball
+pitch_type_EP,-4.00000000000178e-05,Pitch: Eephus
+if_fielding_alignment_Infield shade,-4.000000000006221e-05,IF alignment: Infield shade
+pitch_type_FS,-8.00000000000356e-05,Pitch: Splitter
+pitch_type_CH,-0.00012000000000003119,Pitch: Changeup
+of_fielding_alignment_Standard,-0.0002000000000000446,OF alignment: Standard
+pitch_type_FC,-0.0002000000000000668,Pitch: Cutter
+of_fielding_alignment_Strategic,-0.00024000000000006237,OF alignment: Strategic
+pitch_type_FF,-0.00028000000000003575,Pitch: 4-Seam Fastball
+pitch_type_CU,-0.0005600000000000494,Pitch: Curveball

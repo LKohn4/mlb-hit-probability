@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# PyCharm: ignore personal IDE state, but share run configurations in .run/
+.idea/
+
+# Statcast data is large and owned by MLB Advanced Media; don't commit it
+data/*
+!data/.gitkeep
+
+# Generated results (figures are kept so the README can show them)
+results/*.csv
+results/*.json
+results/*.md
+
+# Trained model files
+*.keras
+*.h5
+*.joblib
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+# Runtime + development dependencies. pyproject.toml is the source of truth;
+# this file lets PyCharm detect and offer to install missing packages.
+# Recommended instead: pip install -e ".[dev]"
+pybaseball>=2.2.7
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+scikit-learn>=1.4
+tensorflow>=2.16
+pytest>=8.0
+ruff>=0.6
+jupyter>=1.0
