@@ -11,7 +11,7 @@ same held-out data. The pipeline also builds a set of dashboard-ready figures, i
 hits-above-expected leaderboard.
 
 ## Results
-## On the 2026 season, the random forest reached 91.24% accuracy using @flanalytics features,but that fell to 83.12% once features recorded after the play were removed. The leak-free model (ROC AUC Z) is the honest measure of how well contact quality alone predicts a hit.
+On the 2026 season, the random forest reached 91.24% accuracy using @flanalytics features, but that fell to 83.12% once features recorded after the play were removed. The leak-free model is the honest measure of how well contact quality alone predicts a hit.
 
 | model | method | accuracy | roc_auc | log_loss | brier | train_time_s |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -73,9 +73,6 @@ The first run downloads the full 2026 regular season from Baseball Savant throug
 cached in `data/`, so later runs skip the download. The log reports the first and last game dates it
 found; if the final days are missing because Statcast hadn't posted them yet, re-run later with
 `--refresh-data`.
-
-Using PyCharm? See **[docs/PYCHARM_SETUP.md](docs/PYCHARM_SETUP.md)**. The repo includes
-ready-made run configurations.
 
 ## Usage
 
